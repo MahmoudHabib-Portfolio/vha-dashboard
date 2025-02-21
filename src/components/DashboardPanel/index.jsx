@@ -21,7 +21,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import TableHead from "@mui/material/TableHead";
-import Barchart from "./BarChart";
+import Panelchart from "./Panelchart";
 
 const DashboardPanel = () => {
     const date = new Date();
@@ -163,7 +163,7 @@ const DashboardPanel = () => {
             </div>
             {/* Statistics charts */}
             <div className="pt-1 block w-full">
-                <Barchart />
+                <Panelchart />
             </div>
             </div>
             <div className="flex flex-row gap-x-3 med:flex-col gap-y-6">

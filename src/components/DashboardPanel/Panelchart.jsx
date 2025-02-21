@@ -19,7 +19,7 @@ const CustomBar = (props) => {
   );
 };
 
-const Barchart = () => {
+const Panelchart = () => {
 
   const data = [
     {
@@ -126,4 +126,4 @@ const Barchart = () => {
   )
 }
 
-export default Barchart;
+export default Panelchart;
