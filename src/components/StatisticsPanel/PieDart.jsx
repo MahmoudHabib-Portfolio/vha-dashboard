@@ -8,7 +8,7 @@ const PieDart = () => {
     { name: '', value: 35 },
     { name: '', value: 375 }
   ];
-
+  
   const COLORS = ["#002D67", "#00DCF9", "#1866CD", "#4D91FF"];
 
   return (
